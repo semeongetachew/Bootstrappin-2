@@ -1,0 +1,60 @@
+.color{
+	background-color: #ee0979;
+	font-family: "Georgia", Times, serif;
+}
+.jumbotron{
+	background-color: #ff6a00;
+	text-align: center;
+	padding-top: 25px;
+
+    border-radius: 10px;
+    background-color: red;
+    font-weight: bold;
+    color: #FFF;
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s infinite;
+     /* can be treated like a fallback */
+  	background-color: red;
+
+  /* will be "on top", if browser supports it */
+  	background-image: linear-gradient(red, orange);
+
+  /* these will reset other properties, like background-position, but it does know what you mean */
+ 	 background: red;
+ 	 background: linear-gradient(red, orange);
+ 	 max-width: fill;
+
+}
+
+.jumbodescription{
+	border: 2px solid;
+    padding: 10px;
+    background: #c3c3ff;
+    border-bottom-left-radius: 2em;
+    font-family: "Georgia", Times, serif;
+    margin-top: 10px;
+}
+
+body{
+	background-color: #ee0979;
+}
+
+
+
+h1{
+	font-family: "Times", Times, serif;
+}
+
+p{
+	font-family: "Arial", Times, serif;
+}
+
+.uitag{
+	resize: auto;
+	overflow: auto;
+	text-align: center; 
+	border: 1px solid black;
+    outline: 1px solid red;
+    outline-offset: 15px; 
+}
